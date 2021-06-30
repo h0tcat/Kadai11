@@ -23,14 +23,7 @@ public class Kadai11d{
   public static int input_num(){
     System.out.print("整数値を入力してください --> ");
 
-    //----- 学習 MEMO -----
-    //
-    //C言語だとreturnされるときにsrcが解放されて
-    //大変なことが起きることがある
-    //C言語やC++だとmallocを使ったりすること
-    //
-    //---------------------
-    
+
     int src = stdIO.nextInt();
 
     return src;
