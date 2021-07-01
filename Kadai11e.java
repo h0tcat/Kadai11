@@ -21,6 +21,10 @@ public class Kadai11e{
     int code = stdIO.nextInt();
     int price = get_price(code);
 
-    System.out.printf("単価 : %d\n",price);
+    if(price == -1){
+      System.out.println("エラー : 該当商品は未登録です。");
+    }else{
+      System.out.printf("単価 : %d\n",price);
+    }
   }
 }
